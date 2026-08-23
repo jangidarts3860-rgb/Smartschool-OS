@@ -1,0 +1,44 @@
+{
+  "project_name": "SmartSchool OS",
+  "theme_mode": "dark-first",
+  "tokens": {
+    "colors": {
+      "primary": "bg-indigo-600",
+      "primary_light": "text-indigo-400",
+      "surface_dark": "bg-slate-950",
+      "surface_card": "bg-slate-900/80",
+      "text_main": "text-white",
+      "text_muted": "text-slate-400",
+      "accent": "text-emerald-400",
+      "border_glow": "border-white/10"
+    },
+    "typography": {
+      "font_family": "Outfit, sans-serif",
+      "heading_weight": "font-black",
+      "body_size": "text-sm",
+      "caption_size": "text-[10px]",
+      "legibility": "optimizeLegibility",
+      "font_features": "cv02, cv03, cv04, cv11"
+    },
+    "borders": {
+      "radius_card": "rounded-[2.5rem]",
+      "radius_button": "rounded-2xl",
+      "border_color": "border-slate-800"
+    }
+  },
+  "established_patterns": [
+    "Dark-first glassmorphic cards with backdrop-blur-3xl and white/10 borders",
+    "Outfit typography with optimizeLegibility & font-feature-settings",
+    "Fitts's Law 44px minimum touch targets on all buttons and inputs (WCAG 2.5.5)",
+    "WCAG 2.2 AA Contrast Compliance (≥4.5:1 text contrast)",
+    "Prefers-Reduced-Motion accessibility support for motion-sensitive users",
+    "FaceGrid 1-tap (Present/Green) and 2-tap (Absent/Red) gesture attendance for teachers",
+    "Persistent Multi-Child Switcher dropdown in top navigation bar for parents",
+    "Stress-free UX: Class ranks hidden for bottom 10% students",
+    "Micro-animations: fadeInUp, scaleIn, pulse-glow, and hover-lift cards",
+    "Textures use offline-safe inline SVG data URIs: .bg-noise (feTurbulence) and .bg-map-grid — never reference /noise.png or /map-grid-pattern.svg (missing assets)",
+    "Driver photos use deterministic Dicebear avataaars avatars seeded by driver name via Avatar component (initials fallback)",
+    "Role Avatars: 100% distinct high-res portrait pools for Admin (director suits), Teacher (educators), Parent (family headshots), and Student (young centered portraits) with object-center framing and SVG fallbacks"
+  ],
+  "last_updated": "2026-08-23"
+}
